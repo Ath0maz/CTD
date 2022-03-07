@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    font-stretch: expanded;
+}
+
+.background1 {
+    background-image: url('https://pbs.twimg.com/media/EH1bAB7WoAkTBz_.png');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.altura {
+    height: 800px;
+}
