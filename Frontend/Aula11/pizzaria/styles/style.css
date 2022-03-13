@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --color-white: #fff;
+    --bg-black: #222;
+    --bg-light-gray: #e5e5e5;
+    --text-red: #fc200c;
+    --text-green: #39b24a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+body {
+    background-color: var(--bg-light-gray);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+header {
+    width: 1024px;
+    height: 100px;
+
+    background-color: var(--bg-black);
+    box-shadow: 0px 4px 4px var(--bg-black);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 234px;
+    height: 80px;
+
+    padding: 10px 0px 10px 20px;
+}
+
+img {
+    position: absolute;
+    width: 86px;
+}
+
+.logo h1 {
+    padding: 26px 0 26px 112px;
+    width: 142px;
+    height: 28px;
+}
+
+h1 {
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.Green {
+    color: var(--text-green);
+}
+
+.Red {
+    color: var(--text-red);
+}
+
+nav {
+    width: 296px;
+    height: 19px;
+
+    margin: 40px 28px 41px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 7px;
+    
+}
+
+a {
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 986px;
+    height: 350px;
+
+    border-radius: 5px;
+
+    margin: 35px 19px 38px 19px;
+
+    background-color: var(--bg-light-gray);
+}
+
+.Delivery {
+    width: 490px;
+    height: 350px;
+
+    border-radius: 5px;
+
+    background-image: url(./../img/delivery.jpg);
+    background-repeat: no-repeat;
+}
+
+.Delivery p {
+    width: 485px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    margin: 4px 3px 0px 2px;
+}
+
+.cardapio {
+    width: 490px;
+    height: 350px;
+
+    border-radius: 5px;
+
+    background-color: var(--color-white);
+}
+
+.cardapio h2 {
+    width: 205px;
+    height: 28px;
+
+    color: var(--text-red);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 26px 126px 30px 160px;
+}
+.Top5 {
+    width: 385px;
+    height: 250px;
+
+    border-radius: 5px;
+
+    margin: 0px 55px 0px 51px;
+}
+
+.Top5 h3 {
+    width: 110px;
+    height: 23px;
+
+    margin-top: 58px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.Top5 ol li {
+    padding-bottom: 10px;
+}
+
+.PizzaFatiada {
+    position: absolute;
+
+    margin-top: 40px;
+    margin-left: 325px;
+
+    width: 92px;
+    height: 129px;
+
+    background-image: url(./../img/PizzaFalling.jpg);
+    background-repeat: no-repeat;
+}
+
+footer {
+    width: 1024px;
+    height: 150px;
+
+    background-color: var(--bg-black);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FooterMenu {
+    margin: 16px 0 22px 18px;
+}
+
+.FooterMenu ul li {
+    padding-bottom: 12px;
+}
+
+footer .LogoMenu {
+    margin: 40px 0 0 590px;
+}
+
+.title {
+    margin: 60px 42px 0 0;
+}
